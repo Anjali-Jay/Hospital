@@ -1,0 +1,64 @@
+{% load static %}
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<!-- <div>
+<div class="container">
+
+    <div class="d-flex justify-content-center">
+        <div class="d-flex flex-column bd-highlight mb-3">
+            <div class="p-2 bd-highlight">
+                <img src="{% static 'images/adm.jpg' %}" width="300px">
+            </div>
+            <div class="p-2 bd-highlight">
+                <a href="{% url 'AdminLogin' %}" >Admin</a>
+            </div>
+        </div>
+        <div class="d-flex flex-column bd-highlight mb-3">
+            <div class="p-2 bd-highlight">
+                <img src="{% static 'images/ddoc.jpg' %}" width="300px">
+            </div>
+            <div class="p-2 bd-highlight">
+                <a href="{% url 'DocLogin' %}">Doctor</a>
+            </div>
+        </div>
+        <div class="d-flex flex-column bd-highlight mb-3">
+            <div class="p-2 bd-highlight">
+                <img src="{% static 'images/patient.jpg' %}" width="300px">
+            </div>
+            <div class="p-2 bd-highlight">
+                <a href="{% url 'PatientLogin' %}">Patient</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div> -->
+<div class="a">
+<div class="d-flex justify-content-center ">
+		<div class="card" style="width: 18rem;">
+		  <img class="card-img-top" src="{% static 'images/adm.jpg' %}" alt="Card image cap">
+		  <div class="card-body">
+			<a href="{% url 'AdminLogin' %}" id="" style="text-align:center; text-decoration: none;">Admin</a>
+		  </div>
+		</div>
+
+		<div class="card" style="width: 18rem;">
+		  <img class="card-img-top" src="{% static 'images/ddoc.jpg' %}" alt="Card image cap">
+		  <div class="card-body">
+			<a href="{% url 'DocLogin' %}" id="" style="text-align:center; text-decoration: none;">Doctor</a>
+		  </div>
+		</div>
+
+		<div class="card" style="width: 18rem;">
+		  <img class="card-img-top" src="{% static 'images/patient.jpg' %}" alt="Card image cap">
+		  <div class="card-body">
+			<a href="{% url 'PatientLogin' %}" id="" style="text-align:center; text-decoration: none;">Patient</a>
+		  </div>
+		</div>
+</div>
+</div>
